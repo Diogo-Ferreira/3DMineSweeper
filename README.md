@@ -12,6 +12,10 @@ Here is some documentation (Only in french, sorry) : https://drive.google.com/fi
 * Zoome with the mouse wheel
 
 
-# How to run it ?
+# How do I run it ?
 * lauch the MineSweeper3D.jar file in the dist folder
 * Of course, you must have java installed
+
+
+
+And last, the comments are in french (Sorry).

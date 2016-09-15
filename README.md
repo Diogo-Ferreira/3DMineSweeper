@@ -16,6 +16,9 @@ Here is some documentation (Only in french, sorry) : https://drive.google.com/fi
 * lauch the MineSweeper3D.jar file in the dist folder
 * Of course, you must have java installed
 
+#Some pics
+
+![Gameplay image](http://diogoferreira.ch/wp-content/uploads/2016/03/Screenshot-from-2016-03-18-082051.png)
 
 
 And last, the comments are in french (Sorry).

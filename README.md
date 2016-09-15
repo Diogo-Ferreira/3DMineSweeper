@@ -5,7 +5,7 @@ Here is some documentation (Only in french, sorry) : https://drive.google.com/fi
 
 *Basically the game is the same as always, but you have a "rubik's" instead of a 2D game board*
 
-![Gameplay image](http://diogoferreira.ch/wp-content/uploads/2016/09/ezgif.com-video-to-gif-1.gif)
+![Gameplay image](http://diogoferreira.ch/wp-content/uploads/2016/09/ezgif.com-video-to-gif-2.gif)
 
 # Features
 * Size selection (Max 12 cube in one axe)

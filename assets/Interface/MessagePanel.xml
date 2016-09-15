@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.sourceforge.net/nifty-1.3.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://nifty-gui.sourceforge.net/nifty-1.3.xsd http://nifty-gui.sourceforge.net/nifty-1.3.xsd">
+    <useStyles filename="nifty-default-styles.xml" />
+    <useControls filename="nifty-default-controls.xml" />
+    <screen id="messageScreen" controller="States.GuiAppState">
+        <layer id="layer" childLayout="center">
+            <panel id="messageMainPanel" height="300" width="600" align="center" valign="center" style="nifty-panel" childLayout="vertical" visibleToMouse="true">
+                <panel id="messageMainPanelMsg" width="500" height="200"  align="center" valign="center"  childLayout="center" visibleToMouse="true">
+                    <control id="messagePanelMsg" name="label" width="100%" text="" font="Interface/Fonts/ArialBlack.fnt" align="center" wrap="true"/>
+                </panel>
+
+                <panel id="buttonsPanel" align="center" valign="bottom" childLayout="horizontal">
+                    <control id="btnRelaunch" name="button" label="OK" width="250" height="50">
+                        <interact onClick="showOptions()"/>
+                    </control>
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+    
+    <!-- IMAGE D'AIDE -->
+    <screen id="messageScreenImage" controller="States.GuiAppState">
+        <layer id="layer" childLayout="center">
+            <panel id="messageMainPanel" height="370" width="500" align="center" valign="center" style="nifty-panel" childLayout="vertical" visibleToMouse="true">
+                <image filename="Textures/aide.png" align="center" valign="top" >
+                    
+                </image>
+
+                <panel id="buttonsPanel" align="center" valign="bottom" childLayout="horizontal" padding="10">
+                    <control id="btnRelaunch" name="button" label="OK" width="200" >
+                        <interact onClick="playerReady()"/>
+                    </control>
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+</nifty>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.sourceforge.net/nifty-1.3.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://nifty-gui.sourceforge.net/nifty-1.3.xsd http://nifty-gui.sourceforge.net/nifty-1.3.xsd">
+    <useStyles filename="nifty-default-styles.xml" />
+    <useControls filename="nifty-default-controls.xml" />
+    <screen id="restartScreen" controller="States.GuiAppState">
+        <layer id="layer" childLayout="center">
+            
+            <panel id="restartMainPanel" height="90" width="600" align="center" valign="top" style="nifty-panel" childLayout="vertical" visibleToMouse="true">
+                <panel id="restartMainPanelMsg" width="500"  align="center" valign="center"  childLayout="center" visibleToMouse="true">
+                    <control id="restartPanelMsg" name="label" width="100%" text="" />
+                </panel>
+
+                <panel id="buttonsPanel" align="center" valign="bottom" childLayout="horizontal">
+                    <control id="btnRelaunch" name="button" label="oui">
+                        <interact onClick="relaunchGame()"/>
+                    </control>
+                    <control id="btnQuit" name="button" label="non">
+                        <interact onClick="quit()"/>
+                    </control>
+                </panel>
+            </panel>
+            
+            
+        </layer>
+    </screen>
+</nifty>
